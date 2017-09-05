@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--duration，一次动画效果消耗的时间，单位毫秒，值越小动画速度越快-->
+<!--fromDegrees 动画开始时的角度-->
+<!--interpolator 指定动画插入器-->
+<!--pivotX 属性为动画相对于物件的X坐标的开始位置-->
+<!--pivotY 属性为动画相对于物件的Y坐标的开始位置-->
+<!--toDegrees 动画结束时物件的旋转角度,正代表顺时针-->
+
+
+<!--AccelerateInterpolator 加速，开始时慢中间加速-->
+<!--DecelerateInterpolator 减速，开始时快然后减速-->
+<!--AccelerateDecelerateInterolator 先加速后减速，开始结束时慢，中间加速-->
+<!--AnticipateInterpolator 反向，先向相反方向改变一段再加速播放-->
+<!--AnticipateOvershootInterpolator 反向加超越，先向相反方向改变，再加速播放，会超出目的值然后缓慢移动至目的值-->
+<!--BounceInterpolator 跳跃，快到目的值时值会跳跃，如目的值100，后面的值可能依次为85，77，70，80，90，100-->
+<!--CycleIinterpolator 循环，动画循环一定次数，值的改变为一正弦函数：Math.sin(2* mCycles* Math.PI* input)-->
+<!--LinearInterpolator 线性，线性均匀改变-->
+<!--OvershootInterpolator超越，最后超出目的值然后缓慢改变到目的值-->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fromDegrees="0"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="-360" />

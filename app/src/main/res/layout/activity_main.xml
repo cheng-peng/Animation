@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cxp.animation.MainActivity">
+
+    <Button
+        android:id="@+id/main_tween"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickLis"
+        android:text="补间动画" />
+
+    <Button
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickLis"
+        android:text="逐帧动画" />
+
+
+    <Button
+        android:id="@+id/main_property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickLis"
+        android:text="属性动画" />
+
+
+    <Button
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickLis"
+        android:text="布局动画" />
+
+    <Button
+        android:id="@+id/main_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickLis"
+        android:text="自定运动路径" />
+
+
+</LinearLayout>

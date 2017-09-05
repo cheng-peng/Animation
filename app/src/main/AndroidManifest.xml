@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cxp.animation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".tween_animation.TweenAnimationActivity" />
+        <activity android:name=".frame_animation.FrameAniationActivity" />
+        <activity android:name=".property_animation.PropertyAnimationActivity" />
+        <activity android:name=".layout_animation.LayoutAnimationActivity" />
+        <activity android:name=".property_animation.ObjectAnimatorActivity" />
+        <activity android:name=".property_animation.ValueAnimatorActivity" />
+
+        <!--自定义动画-->
+        <activity android:name=".custom_anim.CustomAnimActivity"/>
+        <activity android:name=".custom_anim.demo1.CustomAnimDemo1Activity"/>
+        <activity android:name=".custom_anim.demo2.CustomAnimDemo2Activity"/>
+        <activity android:name=".custom_anim.demo3.CustomAnimDemo3Activity"/>
+        <activity android:name=".custom_anim.custom_path.CustomPathActivity"/>
+        <activity android:name=".custom_anim.fabulous_anim.FabulousAnimActivity"/>
+        <activity android:name=".custom_anim.wave_anim.WaveAnimActivity"/>
+
+    </application>
+
+</manifest>
